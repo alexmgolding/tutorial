@@ -14,7 +14,7 @@ body{
 
 .col1 {
     grid-column: 1/2;
-    width: 250px;
+    width: 350px;
     background-color: #636e72;
 }
 
@@ -44,6 +44,7 @@ img {
     max-width: 250px;
     max-height: 550px;
     -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .title-container {
@@ -137,7 +138,7 @@ img {
 
 .body {
     margin: 0 50px;
-    margin-left: 250px;
+    margin-left: 350px;
 }
 
 .intro {
@@ -154,7 +155,6 @@ img {
 #sidebar {
     width: 15vw;
     height: 100vh;
-    z-index: -1;
     float: left;
     position: fixed;
 }
@@ -173,6 +173,7 @@ img {
 img:hover {
     filter: none;
     -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 .function-info {
