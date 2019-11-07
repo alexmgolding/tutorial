@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Tutorial.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>JS Made Simple</title>
 </head>
 <body>
@@ -22,9 +23,9 @@
     <nav>
         <div class="navbar-container">
             <ul class="navbar">
-                <li class="nav-menu">Functions</li>
-                <li>Objects</li>
-                <li>Arrays</li>
+                <li class="nav-menu"><a href= '#functions'>Functions</a></li>
+                <li><a href= '#objects'>Objects</a></li>
+                <li><a href= '#array'>Arrays</a></li>
             </ul>
         </div>
     </nav>
@@ -33,8 +34,7 @@
             <div class="wrapper">
                 <section id="sidebar">
                     <nav>
-                        <h2 class="sidebar-title">Educational JavaScript Links</h2>
-                        <hr>
+                        <h2 class="sidebar-title">Educational Links</h2>
                         <ul class="sidebar-menu">
                             <li>
                                 <a href="https://www.w3schools.com/" target="blank">W3 Schools</a>
@@ -53,17 +53,16 @@
     </div>
     <div class="col2">
         <div class="intro">
-        <p>
-            JavaScript Made Simple's objective is to bring awareness about JavaScript to the novice developer. This site will highlight the some of the basic attributes of JavaScript, as well as, provide some external links for a better understanding of how JavaScript works.
-        </p>
+        <p>JavaScript Made Simple's objective is to bring awareness about JavaScript to the novice developer. This site will highlight the some of the basic attributes of JavaScript, as well as, provide some external links for a better understanding of how JavaScript works.</p>
         </div>
         <div class="body">
-        <div class="function-info">
+        <div class="function-img">
+            <img src="function.png" class="card-img-top" alt="function example">
             <div class="function-img">
                 <article>
-                    <h2>Functions</h2>
+                    <h2 id="functions">Functions</h2>
                     <p>
-                        A JavaScript function is a JavaScript procedure where a set of statements that performs a task or calculates a value. To use this function you must define the value of the function and then invoke, or call, the function.
+                        Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.
                     </p>
                 </article>
             </div>
@@ -71,7 +70,8 @@
         <div class="object-info">
             <div class="object-image">
                 <article>
-                    <h2>Objects</h2>
+                    <img src="object.png" class="card-img-top" alt="object example">
+                    <h2 id="objects">Objects</h2>
                     <p>
                         In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
                     </p>
@@ -89,7 +89,8 @@
         <div class="array-info">
             <div class="array-img">
                 <article>
-                    <h2>Array</h2>
+                    <img src="array.jpeg" class="card-img-top" alt="array example">
+                    <h2 id="array">Array</h2>
                     <p>
                         An array is an ordered set of values that you refer to with a name and an index. For example, you could have an array called emp that contains employees' names indexed by their numerical employee number. So emp[1] would be employee number one, emp[2] employee number two, and so on.
                     </p>
@@ -100,5 +101,8 @@
             </div>
         </div>
     </div>
+<footer class="foot">
+    Alex Golding © 2019
+</footer>
 </body>
 </html>
