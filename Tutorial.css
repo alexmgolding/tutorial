@@ -137,7 +137,7 @@ img {
 
 .body {
     margin: 0 50px;
-    margin-left: 350px;
+    margin-left: 250px;
 }
 
 .intro {
@@ -173,10 +173,6 @@ img {
 img:hover {
     filter: none;
     -webkit-transform: scale(1.5);
-}
-
-.function-img {
-    
 }
 
 .function-info {
